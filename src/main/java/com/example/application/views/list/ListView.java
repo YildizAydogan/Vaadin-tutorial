@@ -36,6 +36,7 @@ public class ListView extends VerticalLayout {
 
     }
 
+
     private Component getToolbar() {
         filterText.setPlaceholder("Filter by name...");
         filterText.setClearButtonVisible(true);
