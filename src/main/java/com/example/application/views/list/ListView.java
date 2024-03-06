@@ -28,7 +28,6 @@ public class ListView extends VerticalLayout {
         addClassName("list-view");
         setSizeFull();
 
-
         configureGrid();
 
         add(
