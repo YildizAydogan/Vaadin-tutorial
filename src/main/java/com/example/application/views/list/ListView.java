@@ -24,7 +24,6 @@ public class ListView extends VerticalLayout {
 
     public ListView() {
 
-
         addClassName("list-view");
         setSizeFull();
 
