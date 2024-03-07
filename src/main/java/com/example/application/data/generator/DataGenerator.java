@@ -23,7 +23,6 @@ import org.vaadin.artur.exampledata.ExampleDataGenerator;
 
 @SpringComponent
 public class DataGenerator {
-
     @Bean
     public CommandLineRunner loadData(ContactRepository contactRepository, CompanyRepository companyRepository,
                                       StatusRepository statusRepository) {
