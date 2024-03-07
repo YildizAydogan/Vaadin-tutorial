@@ -22,6 +22,7 @@ public class ListView extends VerticalLayout {
     TextField filterText = new TextField();
     ContactForm form;
 
+
     public ListView() {
 
         addClassName("list-view");
